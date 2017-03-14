@@ -1123,6 +1123,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+
 .img-pic {
   max-width: 25%;
   height: auto;
