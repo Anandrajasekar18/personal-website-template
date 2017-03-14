@@ -116,8 +116,8 @@ header .intro-text .skills {
   filter: grayscale(40%);
 }
 .img-mypic {
-   width:100 px;
-   height:100 px;
+   width:50 px;
+   height:50 px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
