@@ -110,8 +110,8 @@ header .intro-text .skills {
   font-weight: 700;
   border: none;
 }
-img.img-responsive {
-    border-radius: 50%;
+.img-responsive {
+    border-radius: 100%;
 }
 .navbar-custom a:focus {
   outline: none;
