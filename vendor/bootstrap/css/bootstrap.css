@@ -1631,7 +1631,7 @@ pre code {
 
 }
 
-@keyframes urls{
+/*@keyframes urls{
     0%   {background-image: url("img/t1.jpg");}
     25%  {background-image: url("img/t2.jpg");}
     50%  {background-image: url("img/t3.jpg");}
@@ -1640,17 +1640,13 @@ pre code {
     50%  {background-color: GoldenRod ;}
     75%  {background-color: Cyan ;}
     100% {background-color: Chartreuse ;}
-}
+}*/
 
 
 #portfolio {
     background-image: url("img/t4.jpg");
-    background-color: LightPink;
-    animation-name: urls;
-     animation-delay: 1s;
-     animation-duration:2s;
-    animation-iteration-count: 1000;
-    background-size: 80px 60px;
+   
+    background-size: 200px 0px;
     background-repeat: repeat;
      background-origin: content-box;
 }
