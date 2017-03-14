@@ -111,7 +111,8 @@ header .intro-text .skills {
   border: none;
 }
 .img-responsive {
-    border-radius: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .navbar-custom a:focus {
   outline: none;
