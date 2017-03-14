@@ -115,6 +115,11 @@ header .intro-text .skills {
   -webkit-filter: grayscale(40%);
   filter: grayscale(40%);
 }
+.img-mypic {
+  
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+}
 .navbar-custom a:focus {
   outline: none;
 }
