@@ -116,7 +116,10 @@ header .intro-text .skills {
 }
 .img-mypic {
    border-radius: 100%;
-  
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
 }
 .navbar-custom a:focus {
   outline: none;
