@@ -1120,6 +1120,10 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
+  max-width: 50%;
+  height: auto;
+}
+.img-mypic {
   max-width: 25%;
   height: auto;
 }
