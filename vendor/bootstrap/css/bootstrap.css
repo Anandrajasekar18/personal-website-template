@@ -1123,9 +1123,15 @@ img {
   max-width: 100%;
   height: auto;
 }
-.img-mypic {
+.img-pic {
   max-width: 25%;
   height: auto;
+  border-radius: 100%;
+   -webkit-transform-origin: 50% 0;
+   transform-origin: 50% 0;
+   -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+   animation: swinging 3.5s ease-in-out forwards infinite;
+
 }
 .img-rounded {
   border-radius: 6px;
