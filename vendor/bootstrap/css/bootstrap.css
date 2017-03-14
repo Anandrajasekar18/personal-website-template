@@ -1090,8 +1090,7 @@ body {
 }
 input,
 button,
-select,
-textarea {
+select,textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -1121,7 +1120,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 50%;
+  max-width: 25%;
   height: auto;
 }
 .img-rounded {
