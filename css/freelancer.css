@@ -64,7 +64,7 @@ hr.star-primary:after {
   background-color: white;
   color: #2C3E50;
 }
-.img-centered {
+.img-mypic {
   margin: 0 auto;
 }
 header {
@@ -111,8 +111,9 @@ header .intro-text .skills {
   border: none;
 }
 .img-responsive {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  border-radius: 100%;
+  -webkit-filter: grayscale(40%);
+  filter: grayscale(40%);
 }
 .navbar-custom a:focus {
   outline: none;
