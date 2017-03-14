@@ -115,11 +115,8 @@ header .intro-text .skills {
   
 }
 .img-mypic {
-   width:50 px;
-   height:50 px;
-  border-radius: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+   border-radius: 100%;
+  
 }
 .navbar-custom a:focus {
   outline: none;
